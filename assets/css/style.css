@@ -17,6 +17,7 @@ body{
 
 ul{
     padding: 100px 50px 50px;
+    border: 5px solid #e0e0e0;
     color: #fff;
     background: rgb(112,12,184);
     background: linear-gradient(0deg, rgba(112,12,184,1) 0%, rgba(255,0,181,1) 100%);
