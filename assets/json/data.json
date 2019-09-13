@@ -1,0 +1,39 @@
+{
+    "event":[
+        {
+            "target":"HTMLAllCollection",
+            "eventTarget":"console.log(e.explicitOriginalTarget.all)",
+            "result":"Array med alle tags indenfor HTML"
+        },
+        {
+            "target":"fullscreenEnabled",
+            "eventTarget":"console.log(e.originalTarget.fullscreenEnabled)",
+            "result":"True"
+        },
+        {
+            "target":"bubbles",
+            "eventTarget":"console.log(e.bubbles)",
+            "result":"True"
+        },
+        {
+            "target":"contentType",
+            "eventTarget":"console.log(e.explicitOriginalTarget.contentType)", 
+            "result":"text/html"
+        },
+        {
+            "target":"isTrusted",
+            "eventTarget":"console.log(e.isTrusted)", 
+            "result":"true"
+        },
+        {
+            "target":"type",
+            "eventTarget":"console.log(e.type)", 
+            "result":"DOMContentLoaded"
+        },
+        {
+            "target":"charset",
+            "eventTarget":"console.log(e.srcElement.charset)", 
+            "result":"UTF-8"
+        }
+    ]
+}
